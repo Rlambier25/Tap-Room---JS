@@ -4,4 +4,7 @@ export class Keg {
   constructor(public name: string, public brand: string, public price: number, public abv: number) {
     this.priceString = "$" + this.price.toFixed(2).toString();
   }
+  public priceToString() {
+    this.priceString = "$" + this.price.toFixed(2).toString();
+  }
 }

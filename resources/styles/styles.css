@@ -1,6 +1,3 @@
-h1 {
-  color: green;
-}
 .selected {
   color: #22bdf0;
 }
@@ -17,4 +14,22 @@ h1 {
 .filter {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.keg-edit input {
+  display: inline;
+  width: 100px;
+  height: 22px;
+}
+.red {
+  color: red;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+.sold-out {
+  outline: 3px dotted orange;
+  background-image: url("../../resources/images/images.png");
 }
